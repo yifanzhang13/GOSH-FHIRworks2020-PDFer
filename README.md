@@ -52,15 +52,15 @@
 #### Patients
 
 - GET all patients: **/api/Patient**
-- GET a patient: **/api/Patient/***patient ID*
-- GET a selected number of pages of patient: **api/pages/***number of pages*
+- GET a patient: **/api/Patient/** *patient ID*
+- GET a selected number of pages of patient: **api/pages/** *number of pages*
 
 
 #### Observations
 
-- GET all observations for a patient: **/api/Observation/***patient ID*
-- GET a single observation for a patient: **api/Observation/single/***observation ID*
-- GET a selected number of pages of observations for a patient: **api/Observation/pages/***number of pages/patient ID*
+- GET all observations for a patient: **/api/Observation/** *patient ID*
+- GET a single observation for a patient: **api/Observation/single/** *observation ID*
+- GET a selected number of pages of observations for a patient: **api/Observation/pages/** *number of pages/patient ID*
 
 
 # Adding more controllers
