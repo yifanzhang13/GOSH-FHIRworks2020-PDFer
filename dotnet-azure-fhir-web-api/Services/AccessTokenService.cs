@@ -40,13 +40,13 @@ namespace HDR_UK_Web_Application.Services
             }
             catch (MsalUiRequiredException ex)
             {
-                _logger.LogError($"Class: AccessTokenService, Method: CreateAccessToken, Error: {ex.Message} - UI interaction required for authentication to succeed.");
+                _logger.LogError($"Class: AccessTokenService, Method: CreateAccessToken, {Environment.NewLine} Exception: {ex}, {Environment.NewLine} Message: {ex.Message}, {Environment.NewLine} StackTrace: {ex.StackTrace}");
                 return result;
 
             }
             catch (MsalServiceException ex)
             {
-                _logger.LogError($"Class: AccessTokenService, Method: CreateAccessToken, Error: {ex.Message} - For more information on AADSTS error codes, visit: https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-aadsts-error-codes");
+                _logger.LogError($"Class: AccessTokenService, Method: CreateAccessToken, {Environment.NewLine} Exception: {ex}, {Environment.NewLine} Message: {ex.Message}, {Environment.NewLine} StackTrace: {ex.StackTrace}");
                 return result;
             }
 
@@ -68,7 +68,7 @@ namespace HDR_UK_Web_Application.Services
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Class: AccessTokenService, Method: GetAuthenticationResult, Error: {ex.Message}");
+                _logger.LogError($"Class: AccessTokenService, Method: GetAuthenticationResult, {Environment.NewLine} Exception: {ex}, {Environment.NewLine} Message: {ex.Message}, {Environment.NewLine} StackTrace: {ex.StackTrace}");
                 return result;
             }
 

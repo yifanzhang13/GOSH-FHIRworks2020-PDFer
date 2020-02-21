@@ -30,7 +30,7 @@ namespace HDR_UK_Web_Application.Services
             catch (Exception ex)
             {
                 _logger.LogError($"Class: ResourceFetchService, Method: GetSinglePage, Exception: {ex.Message}");
-                return JsonConvert.DeserializeObject<JObject>($"Class: ResourceFetchService, Method: GetSinglePage, Exception: {ex.Message}");
+                return null;
             }
         }
 
@@ -47,8 +47,7 @@ namespace HDR_UK_Web_Application.Services
             catch (Exception ex)
             {
                 _logger.LogError($"Class: ResourceFetchService, Method: GetAllPages, Exception: {ex.Message}");
-                list.Add(JsonConvert.DeserializeObject<JObject>($"Class: ResourceFetchService, Method: GetAllPages, Exception: {ex.Message}"));
-                return list;
+                return null;
             }
         }
 
@@ -65,8 +64,7 @@ namespace HDR_UK_Web_Application.Services
             catch (Exception ex)
             {
                 _logger.LogError($"Class: ResourceFetchService, Method: GetPages, Exception: {ex.Message}");
-                list.Add(JsonConvert.DeserializeObject<JObject>($"Class: ResourceFetchService, Method: GetPages, Exception: {ex.Message}"));
-                return list;
+                return null;
             }
         }
 
@@ -74,6 +72,12 @@ namespace HDR_UK_Web_Application.Services
 
         private async Task<List<JObject>> RetrieveAllPages(JObject json, List<JObject> list)
         {
+            if(json == null)
+            {
+                return null;
+            }
+
+
             string relation = (string)json["link"][0]["relation"];
             list.Add(json);
 
@@ -91,6 +95,12 @@ namespace HDR_UK_Web_Application.Services
 
         private async Task<List<JObject>> RetrievePages(JObject json, List<JObject> list, int pages)
         {
+            if(json == null)
+            {
+                return null;
+            }
+
+
             string relation = (string)json["link"][0]["relation"];
             list.Add(json);
 
