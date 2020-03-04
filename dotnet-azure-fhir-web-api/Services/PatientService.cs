@@ -2,6 +2,9 @@
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System;
+using System.Diagnostics;
+using System.ComponentModel;
 
 namespace HDR_UK_Web_Application.Services
 {
@@ -20,7 +23,8 @@ namespace HDR_UK_Web_Application.Services
         public async Task<List<JObject>> GetPatients()
         {
             _logger.LogInfo("Class: PatientService, Method: GetAllPages");
-            return await _resource.GetAllPages(requestOption);
+            List<JObject> patients = await _resource.GetAllPages(requestOption);
+            return patients;
         }
 
         public async Task<List<JObject>> GetPatientPages(int pages)
@@ -32,16 +36,21 @@ namespace HDR_UK_Web_Application.Services
         public async Task<JObject> GetPatient(string id)
         {
             _logger.LogInfo("Class: PatientService, Method: GetPatient");
-            return await _resource.GetSinglePage($"{requestOption}{id}");
+            JObject jObject = await _resource.GetSinglePage($"{requestOption}{id}");
+
+            Process process = new Process() {
+                StartInfo = new ProcessStartInfo{
+                    FileName = "python3",
+                    Arguments = "id.py",
+                    WorkingDirectory = "/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api",
+                    RedirectStandardInput = true
+                }
+            };
+
+            process.Start();
+            process.StandardInput.WriteLine(jObject.ToString());
+            process.StandardInput.Close();
+            return jObject;
         }
-
-
-
-
-
-
-
-
-
     }
 }
