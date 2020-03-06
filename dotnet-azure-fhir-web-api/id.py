@@ -79,7 +79,8 @@ if __name__ == '__main__':
     pdf = PDF()
     pdf.alias_nb_pages()
     pdf.add_page()
-    pdf.set_font("Arial",'', 10)
+    pdf.set_font('Arial','',10)
+    
 
     time.sleep(2)
 
@@ -107,13 +108,17 @@ if __name__ == '__main__':
 
     def getName():
         name = param_json['name']
+        name_list = []
         for data in name:
+            use = data['use']
             family = data['family']
             given = data['given']
             given_name = given[0]
             prefiex = data['prefix']
             prefiex_name = prefiex[0]
-            return prefiex_name+given_name+' '+family
+            fullname = use+' name: '+prefiex_name+given_name+' '+family
+            name_list.append(fullname)
+        return name_list
 
     def getBirthDate():
         return param_json['birthDate']
@@ -155,13 +160,29 @@ if __name__ == '__main__':
             communicationList.append('('+str(index+1)+'): '+text)
         return communicationList
 
+    def getIdentifiers():
+        # identifiers is a list which contains 0,1,2,3
+        identifiers = param_json['identifier']
+        result_list = []
+        identifier_list = []
+        for index,data in enumerate(identifiers):
+            text = 'MISSING TEXT'
+            if 'type' in data:
+                typee = data['type']
+                text = typee['text']
+            system = data['system']
+            value = data['value']
+            result0 = text
+            result1 = 'system = '+system
+            result2 = ' value = '+value
+            result_list.append(result0)
+            result_list.append(result1)
+            result_list.append(result2)
+            identifier_list.append(result_list)
+        return identifier_list
 
-    print(getAddress())
+    getIdentifiers()
 
-
-    print(str(getName()))
-
-    print(getID())
 
     def pageContent():
         pdf.cell(30,8,'Last Updated at:',0,0,'L')
@@ -174,7 +195,13 @@ if __name__ == '__main__':
 
         pdf.cell(30, 8, 'Patient Name:', 0, 0, 'L')
         pdf.cell(5)
-        pdf.cell(30, 8,getName() , 0, 1, 'L')
+        name_list = getName()
+        for index,data in enumerate(name_list):
+                x = '('+str(index+1)+'): ' + data
+                pdf.cell(30,8,x,0,2,'')
+        # 空行，否则birthdate会对其
+        pdf.cell(30,0,'',0,1,'L')
+                        
 
         pdf.cell(30, 8, 'Birthdate:', 0, 0, 'L')
         pdf.cell(5)
@@ -201,6 +228,26 @@ if __name__ == '__main__':
         communicationList = getCommunication()
         for language in communicationList:
             pdf.cell(30, 8, language, 0, 1, 'L')
+
+        pdf.cell(30,8,'Identifier',0,0,'L')
+        pdf.cell(5)
+        identifier_list = getIdentifiers()
+        for index,data in enumerate(identifier_list):
+                x = '('+str(index+1)+'): '
+                pdf.cell(30,8,x,0,2,'L')
+                for result in data:
+                    pdf.cell(30,8,result,0,2,'L')
+                    if ' value = ' in result:
+                        # pdf.cell(30,8,'****************************************************************************',0,2,'L')
+                
+        
+
+
+
+
+        
+
+
 
 
 
