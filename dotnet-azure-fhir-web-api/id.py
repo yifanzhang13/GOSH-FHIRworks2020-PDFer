@@ -4,7 +4,6 @@ import sys
 import json
 import time
 
-
 class PDF(FPDF):
     def header(self):
         # Logo
@@ -21,7 +20,7 @@ class PDF(FPDF):
         currentTime = "Time: "+localtime
         self.cell(30,8,currentTime,0,2,'C')
         # Line break
-        self.ln(20)
+        self.ln(10)
 
     # Page footer
     def footer(self):
@@ -101,6 +100,9 @@ if __name__ == '__main__':
 
     def getID():
         return param_json['id']
+    
+    def getMultiBirth():
+        return param_json['multipleBirthBoolean']
 
     def getUse():
         family = param_json['family']
@@ -126,6 +128,18 @@ if __name__ == '__main__':
     def getGender():
         return param_json['gender']
 
+    def getMarital():
+        status = param_json['maritalStatus']
+        text = status['text']
+        if text == 'M':
+            return 'Married'
+        elif text == 'S':
+            return 'Single'
+        elif text == "Never Married":
+            return "Never Married"
+        else:
+            return text
+
     def getContact():
         telecom = param_json['telecom']
         telecomList = []
@@ -147,7 +161,7 @@ if __name__ == '__main__':
             state = data['state']
             postcode = data['postalCode']
             country = data['country']
-            address = '('+str(index+1)+'): '+lines+' '+city+' '+state+' '+postcode+' '+country
+            address = '('+str(index+1)+'): '+lines+' / '+city+' / '+state+' / '+postcode+' / '+country
             addressList.append(address)
         return addressList
 
@@ -181,8 +195,44 @@ if __name__ == '__main__':
             identifier_list.append(result_list)
         return identifier_list
 
-    getIdentifiers()
-
+    def getExtensions():
+        # extensions is a list stores 0,1...6
+        extensions = param_json['extension']
+        result_list = []
+        # extension is 0,1..6
+        for index, extension in enumerate(extensions):
+            result = []
+            if 'url' in extension:
+                url = extension['url']
+                result.append('url = '+url)
+            if 'valueString' in extension:
+                valueString = extension['valueString']
+                result.append('valueString = '+valueString)
+            if 'valueCode' in extension:
+                valueCode = extension['valueCode']
+                result.append('valueCode = '+valueCode)
+            if 'valueDecimal' in extension:
+                valueDecimal = extension['valueDecimal']
+                result.append('valueDecimal = '+str(valueDecimal))
+            if 'extension' in extension:
+                dictt = extension['extension']
+                for index,d in enumerate(dictt):
+                    url = d['url']
+                    result.append('['+str(index+1)+']: ')
+                    result.append('url = '+url)
+                    if 'valueCoding' in d:
+                        dd = d['valueCoding']
+                        system = dd['system']
+                        code = dd['code']
+                        display = dd['display']
+                        result.append('system = '+system)
+                        result.append('code = '+code)
+                        result.append('display = '+display)
+                    if 'valueString' in d:
+                        valueString = d['valueString']
+                        result.append('valueString = '+valueString)
+            result_list.append(result)
+        return result_list
 
     def pageContent():
         pdf.cell(30,8,'Last Updated at:',0,0,'L')
@@ -202,14 +252,21 @@ if __name__ == '__main__':
         # 空行，否则birthdate会对其
         pdf.cell(30,0,'',0,1,'L')
                         
-
         pdf.cell(30, 8, 'Birthdate:', 0, 0, 'L')
         pdf.cell(5)
         pdf.cell(30, 8, getBirthDate(), 0, 1, 'L')
 
+        pdf.cell(30, 8, 'Multiple Birth:', 0, 0, 'L')
+        pdf.cell(5)
+        pdf.cell(30, 8, str(getMultiBirth()), 0, 1, 'L')
+
         pdf.cell(30, 8, 'Gender:', 0, 0, 'L')
         pdf.cell(5)
         pdf.cell(30, 8, getGender(), 0, 1, 'L')
+
+        pdf.cell(30, 8, 'Marital Status:', 0, 0, 'L')
+        pdf.cell(5)
+        pdf.cell(30, 8, getMarital(), 0, 1, 'L')
 
         pdf.cell(30, 8, 'Contact:', 0, 0, 'L')
         pdf.cell(5)
@@ -238,20 +295,19 @@ if __name__ == '__main__':
                 for result in data:
                     pdf.cell(30,8,result,0,2,'L')
                     if ' value = ' in result:
-                        # pdf.cell(30,8,'****************************************************************************',0,2,'L')
-                
+                        pdf.cell(30,8,'-------------------------------------------------------------------',0,2,'L')
+        pdf.cell(30,0,'',0,1,'L')
         
-
-
-
-
-        
-
-
-
-
-
-
+        pdf.cell(30, 8, 'Extension:', 0, 0, 'L')
+        pdf.cell(5)
+        list1 = getExtensions()
+        for index,l in enumerate(list1):
+            x = '('+str(index+1)+'): '
+            pdf.cell(30,8,x,0,2,'L')
+            for ll in l:
+                pdf.cell(30,8,ll,0,2,'L')
+            pdf.cell(30,8,'-------------------------------------------------------------------',0,2,'L')
+            
 
 
     # json_txt(param_json) Print key = value

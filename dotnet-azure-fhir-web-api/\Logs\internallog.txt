@@ -13513,3 +13513,547 @@
 2020-03-06 00:09:51.7864 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
 2020-03-06 00:09:51.7864 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
 2020-03-06 00:09:51.7873 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:12:52.7212 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-03-06 00:12:52.7506 Debug Found assembly location directory: '/Users/yifancheung/.nuget/packages/nlog/4.6.7/lib/netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-03-06 00:12:52.7523 Debug Search for auto loading files in location: /Users/yifancheung/.nuget/packages/nlog/4.6.7/lib/netstandard2.0
+2020-03-06 00:12:52.7548 Debug Found assembly location directory: '/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1' (donet-azure-fhir-web-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-03-06 00:12:52.7548 Debug Search for auto loading files in location: /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1
+2020-03-06 00:12:52.7552 Debug Auto loading based on AppDomain-BaseDirectory found location: /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1
+2020-03-06 00:12:52.7552 Debug Search for auto loading files in location: /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api/bin/Debug/netcoreapp2.1
+2020-03-06 00:12:52.7552 Debug Start auto loading, location: /Users/yifancheung/.nuget/packages/nlog/4.6.7/lib/netstandard2.0
+2020-03-06 00:12:52.7579 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-03-06 00:12:52.7579 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-03-06 00:12:52.7583 Debug Auto loading done
+2020-03-06 00:12:52.7583 Info Message Template Auto Format enabled
+2020-03-06 00:12:52.7733 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7750 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-06 00:12:52.7792 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-03-06 00:12:52.7850 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2020-03-06 00:12:52.7851 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7851 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-06 00:12:52.7851 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7851 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-06 00:12:52.7873 Trace  Scanning Property Culture '' System.Globalization
+2020-03-06 00:12:52.7891 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-06 00:12:52.7892 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-06 00:12:52.7892 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-06 00:12:52.7892 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-06 00:12:52.7892 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7892 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-03-06 00:12:52.7903 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7903 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-06 00:12:52.7958 Debug Setting 'FileTarget.name' to 'logfile'
+2020-03-06 00:12:52.7962 Debug Setting 'FileTarget.fileName' to '${currentdir}\Logs\${shortdate}_logfile.txt'
+2020-03-06 00:12:52.7962 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7962 Trace Scanning CurrentDirLayoutRenderer 'Layout Renderer: ${currentdir}'
+2020-03-06 00:12:52.7962 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7962 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-03-06 00:12:52.7977 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-03-06 00:12:52.7977 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7977 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-06 00:12:52.7977 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-03-06 00:12:52.7981 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2020-03-06 00:12:52.7981 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7981 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-06 00:12:52.7981 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7981 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-06 00:12:52.7981 Trace  Scanning Property Culture '' System.Globalization
+2020-03-06 00:12:52.7981 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-06 00:12:52.7981 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-06 00:12:52.7981 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-06 00:12:52.7981 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-06 00:12:52.7981 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-06 00:12:52.7991 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-06 00:12:52.7991 Info Adding target FileTarget(Name=logfile)
+2020-03-06 00:12:52.8004 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-03-06 00:12:52.8004 Trace ParseRulesElement
+2020-03-06 00:12:52.8170 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-03-06 00:12:52.8233 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-03-06 00:12:52.9253 Debug Watching path '/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api' filter 'nlog.config' for changes.
+2020-03-06 00:12:52.9267 Debug --- NLog configuration dump ---
+2020-03-06 00:12:52.9267 Debug Targets:
+2020-03-06 00:12:52.9273 Debug File Target[logfile]
+2020-03-06 00:12:52.9273 Debug Rules:
+2020-03-06 00:12:52.9294 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-03-06 00:12:52.9294 Debug --- End of NLog configuration dump ---
+2020-03-06 00:12:52.9332 Trace FindReachableObject<System.Object>:
+2020-03-06 00:12:52.9332 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-03-06 00:12:52.9332 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-03-06 00:12:52.9332 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-03-06 00:12:52.9344 Trace   Scanning Property FileName ''${currentdir}\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-03-06 00:12:52.9344 Trace   Scanning SimpleLayout ''${currentdir}\Logs\${shortdate}_logfile.txt''
+2020-03-06 00:12:52.9344 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-06 00:12:52.9344 Trace    Scanning CurrentDirLayoutRenderer 'Layout Renderer: ${currentdir}'
+2020-03-06 00:12:52.9344 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-06 00:12:52.9351 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-03-06 00:12:52.9351 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-06 00:12:52.9351 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-03-06 00:12:52.9351 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-03-06 00:12:52.9351 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-06 00:12:52.9351 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-06 00:12:52.9362 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-06 00:12:52.9362 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-06 00:12:52.9362 Trace     Scanning Property Culture '' System.Globalization
+2020-03-06 00:12:52.9362 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-06 00:12:52.9362 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-06 00:12:52.9362 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-06 00:12:52.9362 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-06 00:12:52.9371 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-06 00:12:52.9371 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-06 00:12:52.9371 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-03-06 00:12:52.9371 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2020-03-06 00:12:52.9385 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-03-06 00:12:52.9385 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-03-06 00:12:52.9392 Info Found 15 configuration items
+2020-03-06 00:12:52.9392 Trace Initializing Layout Renderer: ${message}
+2020-03-06 00:12:52.9404 Trace Initializing Layout Renderer: ${literal}
+2020-03-06 00:12:52.9404 Trace Initializing Layout Renderer: ${level}
+2020-03-06 00:12:52.9404 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-03-06 00:12:52.9430 Trace FindReachableObject<System.Object>:
+2020-03-06 00:12:52.9430 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-06 00:12:52.9432 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-06 00:12:52.9432 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-06 00:12:52.9455 Trace Initializing Layout Renderer: ${uppercase}
+2020-03-06 00:12:52.9455 Trace Initializing Layout Renderer: ${literal}
+2020-03-06 00:12:52.9455 Trace Initializing Layout Renderer: ${longdate}
+2020-03-06 00:12:52.9455 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-03-06 00:12:52.9455 Trace FindReachableObject<System.Object>:
+2020-03-06 00:12:52.9462 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-03-06 00:12:52.9462 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-06 00:12:52.9462 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-06 00:12:52.9462 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-06 00:12:52.9462 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-06 00:12:52.9462 Trace   Scanning Property Culture '' System.Globalization
+2020-03-06 00:12:52.9462 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-06 00:12:52.9462 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-06 00:12:52.9462 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-06 00:12:52.9472 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-06 00:12:52.9472 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-06 00:12:52.9472 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-06 00:12:52.9472 Trace Initializing Layout Renderer: ${literal}
+2020-03-06 00:12:52.9472 Trace Initializing Layout Renderer: ${shortdate}
+2020-03-06 00:12:52.9481 Trace Initializing Layout Renderer: ${literal}
+2020-03-06 00:12:52.9481 Trace Initializing Layout Renderer: ${currentdir}
+2020-03-06 00:12:52.9481 Trace Initializing '${currentdir}\Logs\${shortdate}_logfile.txt'
+2020-03-06 00:12:52.9481 Trace FindReachableObject<System.Object>:
+2020-03-06 00:12:52.9481 Trace Scanning SimpleLayout ''${currentdir}\Logs\${shortdate}_logfile.txt''
+2020-03-06 00:12:52.9481 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-06 00:12:52.9481 Trace  Scanning CurrentDirLayoutRenderer 'Layout Renderer: ${currentdir}'
+2020-03-06 00:12:52.9481 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-06 00:12:52.9481 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-03-06 00:12:52.9481 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-06 00:12:52.9491 Trace Initializing File Target[logfile]
+2020-03-06 00:12:52.9521 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-03-06 00:12:52.9521 Trace Scanning FileTarget 'File Target[logfile]'
+2020-03-06 00:12:52.9521 Trace  Scanning Property FileName ''${currentdir}\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-03-06 00:12:52.9521 Trace  Scanning SimpleLayout ''${currentdir}\Logs\${shortdate}_logfile.txt''
+2020-03-06 00:12:52.9521 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-03-06 00:12:52.9521 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-03-06 00:12:52.9521 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-03-06 00:12:52.9521 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2020-03-06 00:12:52.9535 Trace File Target[logfile] has 2 layouts
+2020-03-06 00:12:52.9543 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-03-06 00:12:55.0436 Debug Targets for HDR_UK_Web_Application.Services.LoggerManager by level:
+2020-03-06 00:12:55.0436 Debug Trace =>
+2020-03-06 00:12:55.0442 Debug Debug => logfile
+2020-03-06 00:12:55.0442 Debug Info => logfile
+2020-03-06 00:12:55.0442 Debug Warn => logfile
+2020-03-06 00:12:55.0442 Debug Error => logfile
+2020-03-06 00:12:55.0442 Debug Fatal => logfile
+2020-03-06 00:12:55.0673 Debug FileTarget(Name=logfile): Process file '/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt' on startup
+2020-03-06 00:12:55.0737 Debug Creating file appender: /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt
+2020-03-06 00:12:55.0767 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:12:55.0806 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:12:55.0833 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:12:55.1096 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:13:27.1404 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:13:27.1404 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:13:27.1404 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:13:48.7762 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:13:48.7762 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:13:48.7762 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:14:19.8389 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:14:19.8392 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:14:19.8392 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:18:50.5181 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:18:50.5181 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:18:50.5181 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:19:35.5774 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:19:35.5777 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:19:35.5777 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:26:08.0441 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:26:08.0445 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:26:08.0445 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:26:41.6946 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:26:41.6950 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:26:41.6950 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:28:45.2350 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:28:45.2350 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:28:45.2350 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:30:37.1578 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:30:37.1578 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 00:30:37.1578 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:15:03.3718 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:15:03.3724 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:15:03.3724 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:15:03.3738 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:16:07.2223 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:16:07.2223 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:16:07.2223 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:18:03.1585 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:18:03.1585 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:18:03.1592 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:18:35.5838 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:18:35.5838 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:18:35.5838 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:30:23.7615 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:30:23.7622 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:30:23.7622 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:31:29.8446 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:31:29.8446 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:31:29.8452 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:39:06.5705 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:39:06.5712 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:39:06.5712 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:40:27.0137 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:40:27.0145 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:40:27.0145 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:40:48.9494 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:40:48.9497 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:40:48.9497 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:46:41.4407 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:46:41.4407 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:46:41.4407 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:46:59.0971 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:46:59.0971 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:46:59.0977 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:51:02.6719 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:51:02.6719 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:51:02.6719 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:51:18.6167 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:51:18.6171 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:51:18.6171 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:51:33.6493 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:51:33.6493 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:51:33.6493 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:52:25.5653 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:52:25.5653 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:52:25.5653 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:52:42.2475 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:52:42.2475 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:52:42.2475 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:53:14.5604 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:53:14.5604 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:53:14.5610 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:58:28.2808 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:58:28.2808 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:58:28.2814 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:59:43.3386 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:59:43.3396 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 01:59:43.3396 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 02:02:50.5926 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 02:02:50.5926 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 02:02:50.5933 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 02:08:27.8496 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 02:08:27.8496 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 02:08:27.8507 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 02:11:08.4089 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 02:11:08.4092 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 02:11:08.4092 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:11.9661 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:11.9670 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:11.9670 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:11.9670 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:50.6444 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:50.6461 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:50.6461 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:50.7567 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:50.8735 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:50.9777 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.0703 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.1708 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.2708 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.3620 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.4488 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.5330 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.6368 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.7243 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.8098 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.8877 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:51.9721 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.0616 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.1503 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.2288 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.3120 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.3901 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.4637 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.5473 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.6305 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.7058 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.7863 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.8717 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:52.9490 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.0242 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.1029 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.1889 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.2666 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.3434 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.4203 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.4964 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.5757 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.6503 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.7374 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.8183 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.8911 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:53.9638 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.0414 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.1182 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.2009 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.2741 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.3614 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.4482 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.5250 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.5997 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.6781 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.7553 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.8299 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.9090 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:54.9893 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.0692 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.1457 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.2257 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.3041 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.3830 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.4522 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.5248 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.5975 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.6718 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.7410 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.8178 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.9002 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:55.9760 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.0564 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.1337 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.2123 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.2748 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.3340 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.3915 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.4480 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.5110 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.5722 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.6288 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.6931 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.7687 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.8250 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.8981 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:56.9612 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.0263 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.0961 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.1568 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.2237 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.2837 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.3465 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.4157 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.4870 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.5438 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.6032 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.6648 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.7228 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.7927 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.8567 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.9216 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:57.9911 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:58.0521 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:58.1160 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:58.1764 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:58.2347 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:58.2985 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:58.3617 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:22:58.4272 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:24:32.7502 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:24:32.7509 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 15:24:32.7509 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:56:50.2825 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:56:50.2825 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:56:50.2825 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:56:50.2839 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:57:35.0072 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:57:35.0075 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:57:35.0075 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:57:57.2080 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:57:57.2085 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 16:57:57.2085 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:12:29.0165 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:12:29.0165 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:12:29.0175 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:12:29.0175 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:16:53.6146 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:16:53.6146 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:16:53.6146 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:41:12.9796 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:41:12.9796 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:41:12.9803 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:41:35.0011 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:41:35.0011 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:41:35.0018 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:49:42.6131 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:49:42.6137 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:49:42.6137 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:50:36.6976 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:50:36.6976 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:50:36.6976 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:50:56.5656 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:50:56.5656 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:50:56.5656 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:16.1951 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:16.1951 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:16.1951 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:25.0605 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:25.0605 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:25.0612 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:50.5199 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:50.5202 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:50.5202 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:53.2875 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:53.2875 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:51:53.2883 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:53:07.7472 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:53:07.7482 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:53:07.7482 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:53:35.6922 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:53:35.6925 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:53:35.6925 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:53:49.6563 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:53:49.6567 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:53:49.6567 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:55:13.1163 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:55:13.1163 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:55:13.1170 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:55:25.6213 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:55:25.6213 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:55:25.6220 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:56:46.7674 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:56:46.7683 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:56:46.7683 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:57:39.7184 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:57:39.7187 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:57:39.7187 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:58:14.6970 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:58:14.6970 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:58:14.6970 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:59:49.9488 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:59:49.9497 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 21:59:49.9497 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:02:36.9609 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:02:36.9619 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:02:36.9619 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:03:33.9172 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:03:33.9181 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:03:33.9181 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:05:32.1940 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:05:32.1943 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:05:32.1943 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:06:05.3191 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:06:05.3191 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:06:05.3198 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:08:27.4009 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:08:27.4009 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:08:27.4016 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:09:02.4173 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:09:02.4173 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:09:02.4180 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:10:08.8970 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:10:08.8970 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:10:08.8979 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:11:50.1096 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:11:50.1096 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:11:50.1102 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:11:50.1102 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:21:15.7313 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:21:15.7323 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:21:15.7326 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:21:28.2778 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:21:28.2781 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:21:28.2781 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:23:25.3838 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:23:25.3838 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:23:25.3844 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:24:22.7821 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:24:22.7821 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:24:22.7827 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:30:42.1248 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:30:42.1258 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:30:42.1260 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:37:07.2306 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:37:07.2306 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:37:07.2306 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:37:49.4781 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:37:49.4784 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:37:49.4784 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:39:16.4204 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:39:16.4204 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:39:16.4204 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:39:51.1680 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:39:51.1680 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:39:51.1680 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:40:40.8849 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:40:40.8852 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 22:40:40.8852 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:08:31.6626 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:08:31.6635 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:08:31.6635 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:13:17.8260 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:13:17.8268 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:13:17.8268 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:13:17.8277 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:17:04.1583 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:17:04.1591 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:17:04.1591 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:18:39.8623 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:18:39.8626 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:18:39.8626 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:19:34.8770 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:19:34.8770 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:19:34.8770 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:22:57.9993 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:22:57.9993 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:22:57.9993 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:24:52.9306 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:24:52.9315 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:24:52.9315 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:25:40.1456 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:25:40.1456 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:25:40.1456 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:25:49.2620 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:25:49.2620 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:25:49.2627 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:26:12.3042 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:26:12.3045 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:26:12.3045 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:27:16.9336 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:27:16.9336 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:27:16.9336 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:27:36.3073 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:27:36.3076 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:27:36.3076 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:27:53.2573 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:27:53.2573 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:27:53.2579 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:29:36.9416 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:29:36.9426 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:29:36.9426 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:31:19.0307 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:31:19.0307 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:31:19.0312 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:32:08.1624 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:32:08.1624 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:32:08.1624 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:33:02.1732 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:33:02.1735 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:33:02.1735 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:33:25.3871 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:33:25.3871 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:33:25.3871 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:34:26.5074 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:34:26.5074 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
+2020-03-06 23:34:26.5081 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-06_logfile.txt with allowFileSharedWriting=False
