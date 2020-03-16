@@ -16454,3 +16454,27 @@
 2020-03-16 22:55:55.2818 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-16_logfile.txt with allowFileSharedWriting=False
 2020-03-16 22:55:55.2818 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-16_logfile.txt with allowFileSharedWriting=False
 2020-03-16 22:55:55.2818 Trace Opening /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-16_logfile.txt with allowFileSharedWriting=False
+2020-03-16 23:18:42.3511 Info AppDomain Shutting down. Logger closing...
+2020-03-16 23:18:42.3556 Debug Stopping file watching for path '/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api' filter 'nlog.config'
+2020-03-16 23:18:42.3570 Debug Targets not configured for logger: HDR_UK_Web_Application.Services.LoggerManager
+2020-03-16 23:18:42.3570 Debug Closing logging configuration...
+2020-03-16 23:18:42.3579 Trace Closing File Target[logfile]
+2020-03-16 23:18:42.3579 Debug Closing target 'File Target[logfile]'.
+2020-03-16 23:18:42.3605 Trace FileTarget(Name=logfile): FinalizeFile '/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-16_logfile.txt, isArchiving: False'
+2020-03-16 23:18:42.3634 Debug FileAppender Closing Invalidate - /Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api\Logs\2020-03-16_logfile.txt
+2020-03-16 23:18:42.3657 Debug Closed target 'File Target[logfile]'.
+2020-03-16 23:18:42.3657 Trace Closing '${currentdir}\Logs\${shortdate}_logfile.txt'
+2020-03-16 23:18:42.3657 Trace Closing Layout Renderer: ${currentdir}
+2020-03-16 23:18:42.3657 Trace Closing Layout Renderer: ${literal}
+2020-03-16 23:18:42.3657 Trace Closing Layout Renderer: ${shortdate}
+2020-03-16 23:18:42.3668 Trace Closing Layout Renderer: ${literal}
+2020-03-16 23:18:42.3668 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2020-03-16 23:18:42.3668 Trace Closing Layout Renderer: ${longdate}
+2020-03-16 23:18:42.3668 Trace Closing Layout Renderer: ${literal}
+2020-03-16 23:18:42.3668 Trace Closing Layout Renderer: ${uppercase}
+2020-03-16 23:18:42.3668 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2020-03-16 23:18:42.3668 Trace Closing Layout Renderer: ${level}
+2020-03-16 23:18:42.3668 Trace Closing Layout Renderer: ${literal}
+2020-03-16 23:18:42.3678 Trace Closing Layout Renderer: ${message}
+2020-03-16 23:18:42.3678 Debug Finished closing logging configuration.
+2020-03-16 23:18:42.3678 Info Logger has been shut down.
