@@ -95,58 +95,90 @@ if __name__ == '__main__':
 
     def getLastUpdated():
         meta = param_json['meta']
-        value = meta['lastUpdated']
+        value = ''
+        if 'lastUpdated' in meta:
+            value = meta['lastUpdated']
         return value
 
     def getID():
-        return param_json['id']
+        if 'id' in param_json:
+            return param_json['id']
     
     def getMultiBirth():
-        return param_json['multipleBirthBoolean']
+        if 'multipleBirthBoolean' in param_json:
+            return param_json['multipleBirthBoolean']
 
     def getUse():
-        family = param_json['family']
+        family = ''
+        if 'family' in param_json:
+            family = param_json['family']
         return family
 
     def getName():
         name = param_json['name']
         name_list = []
+        prefiex_name = ''
+        family = ''
+        given_name = ''
         for data in name:
-            use = data['use']
-            family = data['family']
-            given = data['given']
-            given_name = given[0]
-            prefiex = data['prefix']
-            prefiex_name = prefiex[0]
+            if 'prefix' in data:
+                prefiex = data['prefix']
+                prefiex_name = prefiex[0]
+            if 'use' in data:
+                use = data['use']
+            if 'family' in data:
+                family = data['family']
+            if 'given' in data:
+                given = data['given']
+                given_name = given[0]
             fullname = use+' name: '+prefiex_name+given_name+' '+family
             name_list.append(fullname)
         return name_list
 
     def getBirthDate():
-        return param_json['birthDate']
+        value = ''
+        if 'birthDate' in param_json:
+            value = param_json['birthDate']
+        return value
 
     def getGender():
-        return param_json['gender']
+        value = ''
+        if 'gender' in param_json:
+            value = param_json['gender']
+        return value
 
     def getMarital():
-        status = param_json['maritalStatus']
-        text = status['text']
-        if text == 'M':
-            return 'Married'
-        elif text == 'S':
-            return 'Single'
-        elif text == "Never Married":
-            return "Never Married"
+        if 'maritalStatus' in param_json:
+            status = param_json['maritalStatus']
+            text = ''
+            if 'text' in status:
+                text = status['text']
+                if text == 'M':
+                    return 'Married'
+                elif text == 'S':
+                    return 'Single'
+                elif text == "Never Married":
+                    return "Never Married"
+                else:
+                    return text
+            else:
+                return text
         else:
-            return text
+            return ''
 
     def getContact():
         telecom = param_json['telecom']
         telecomList = []
+        system = ''
+        value = ''
+        use = ''
         for index,data in enumerate(telecom):
-            system = data['system']
-            value = data['value']
-            use = data['use']
+            if 'system' in data:
+                system = data['system']
+            if 'value' in data:
+                value = data['value']
+            if 'use' in data:
+                use = data['use']
             telecomList.append('('+str(index+1)+'): '+use+' '+system+": "+value)
         return telecomList
 
@@ -154,13 +186,21 @@ if __name__ == '__main__':
         addresses = param_json['address']
         lines = ''
         addressList = []
+        city = ''
+        state = ''
+        postcode = ''
+        country = ''
         for index, data in enumerate(addresses):
             for line in data['line']:
                 lines = lines + line
-            city = data['city']
-            state = data['state']
-            postcode = data['postalCode']
-            country = data['country']
+            if 'city' in data:
+                city = data['city']
+            if 'state' in data:
+                state = data['state']
+            if 'postalCode' in data:
+                postcode = data['postalCode']
+            if 'country' in data:
+                country = data['country']
             address = '('+str(index+1)+'): '+lines+' / '+city+' / '+state+' / '+postcode+' / '+country
             addressList.append(address)
         return addressList
@@ -168,9 +208,13 @@ if __name__ == '__main__':
     def getCommunication():
         communication = param_json['communication']
         communicationList = []
+        language = ''
+        text = ''
         for index, data in enumerate(communication):
-            language = data['language']
-            text = language['text']
+            if 'language' in data:
+                language = data['language']
+            if 'text' in data:
+                text = language['text']
             communicationList.append('('+str(index+1)+'): '+text)
         return communicationList
 
@@ -180,7 +224,7 @@ if __name__ == '__main__':
         result_list = []
         identifier_list = []
         for index,data in enumerate(identifiers):
-            text = 'MISSING TEXT'
+            text = 'MISSING_TEXT'
             if 'type' in data:
                 typee = data['type']
                 text = typee['text']
@@ -307,16 +351,6 @@ if __name__ == '__main__':
             for ll in l:
                 pdf.cell(30,8,ll,0,2,'L')
             pdf.cell(30,8,'-------------------------------------------------------------------',0,2,'L')
-            
-
-
-    # json_txt(param_json) Print key = value
-    # for i in dict_generator(param_json):
-    #     txt = '.'.join(i[0:-1]), ':', i[-1]
-    #     txt1 = '.'.join(i[0:-1])+' --->  '+str(i[-1])
-    #     # 自动转行
-    #     pdf.write(10,txt1)
-    #     pdf.cell(10,10,'',0,1,'L')
 
     pageContent()
     print('File Generation complete!')

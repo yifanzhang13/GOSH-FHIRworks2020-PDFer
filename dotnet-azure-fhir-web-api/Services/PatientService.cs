@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System;
 using System.Diagnostics;
 using System.ComponentModel;
+using System.IO;
 
 namespace HDR_UK_Web_Application.Services
 {
@@ -42,7 +43,7 @@ namespace HDR_UK_Web_Application.Services
                 StartInfo = new ProcessStartInfo{
                     FileName = "python3",
                     Arguments = "id.py",
-                    WorkingDirectory = "/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/FHIRworks_2020/dotnet-azure-fhir-web-api",
+                    WorkingDirectory = Directory.GetCurrentDirectory(),
                     RedirectStandardInput = true
                 }
             };

@@ -3,6 +3,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using HDR_UK_Web_Application.IServices;
+using System;
+using System.IO;
 
 namespace HDR_UK_Web_Application.Controllers
 {
@@ -37,6 +39,17 @@ namespace HDR_UK_Web_Application.Controllers
         public async Task<List<JObject>> GetPatientPages(int pages)
         {
             return await _service.GetPatientPages(pages);
+        }
+
+        // GET: api/Patient/<patient ID>/view
+        [HttpGet("{id}/view", Name = "ViewPatient")]
+        public async Task<IActionResult> ViewPatient(string id)
+        {
+            var pdfPath = Directory.GetCurrentDirectory()+"/sample.pdf";
+            var pdfMimeType = "application/pdf";
+            var stream = System.IO.File.OpenRead(pdfPath);
+
+            return File(stream,pdfMimeType);
         }
 
     }
