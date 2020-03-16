@@ -579,3 +579,7 @@
 2020-03-16 22:55:55.2818 INFO Class: PatientService, Method: GetPatient
 2020-03-16 22:55:55.2818 INFO Class: ResourceFetchService, Method: GetSinglePage
 2020-03-16 22:55:55.2818 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-16 23:24:43.3299 INFO Class: PatientService, Method: GetPatient
+2020-03-16 23:24:43.3664 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-16 23:24:43.3693 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-16 23:24:43.3945 INFO Class: AccessTokenService, Method: CreateAccessToken, Info: Acquire Token For Client.
