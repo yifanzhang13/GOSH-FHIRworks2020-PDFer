@@ -293,7 +293,7 @@ if __name__ == '__main__':
         for index,data in enumerate(name_list):
                 x = '('+str(index+1)+'): ' + data
                 pdf.cell(30,8,x,0,2,'')
-        # 空行，否则birthdate会对其
+        # blank cell
         pdf.cell(30,0,'',0,1,'L')
                         
         pdf.cell(30, 8, 'Birthdate:', 0, 0, 'L')
