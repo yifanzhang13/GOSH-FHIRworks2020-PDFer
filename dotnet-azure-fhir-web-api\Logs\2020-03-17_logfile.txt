@@ -2378,3 +2378,224 @@
 2020-03-17 21:51:59.7560 INFO Class: ObservationService, Method: GetSingleObservation
 2020-03-17 21:51:59.7566 INFO Class: ResourceFetchService, Method: GetSinglePage
 2020-03-17 21:51:59.7566 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 21:55:36.8974 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 21:55:36.8974 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 21:55:36.8974 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 21:56:02.7570 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 21:56:02.7570 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 21:56:02.7570 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 21:56:27.8735 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 21:56:27.8735 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 21:56:27.8747 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 21:56:47.5567 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 21:56:47.5575 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 21:56:47.5575 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 21:57:05.1097 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 21:57:05.1109 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 21:57:05.1109 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:02:52.4964 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:02:52.4972 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:02:52.4972 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:10:36.2636 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:10:36.2646 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:10:36.2646 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:11:11.5936 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:11:11.5936 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:11:11.5936 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:11:44.6360 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:11:44.6360 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:11:44.6360 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:12:10.7495 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:12:10.7496 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:12:10.7496 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:12:11.2153 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:12:11.2155 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:12:11.2155 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:12:58.1953 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:12:58.1956 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:12:58.1956 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:18:09.7014 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:18:09.7027 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:18:09.7027 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:20:29.0535 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:20:29.0541 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:20:29.0541 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:23:35.8015 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:23:35.8028 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:23:35.8028 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:24:48.9957 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:24:48.9957 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:24:48.9967 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:24:49.6667 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:24:49.6667 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:24:49.6667 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:26:09.6046 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:26:09.6058 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:26:09.6058 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:27:04.5724 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:27:04.5725 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:27:04.5736 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:27:19.6352 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:27:19.6352 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:27:19.6352 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:27:53.0473 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:27:53.0484 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:27:53.0486 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:29:19.9602 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:29:19.9608 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:29:19.9608 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:29:42.0033 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:29:42.0033 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:29:42.0039 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:30:03.3233 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:30:03.3233 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:30:03.3233 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:30:04.2846 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:30:04.2846 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:30:04.2856 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:30:14.1656 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:30:14.1656 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:30:14.1666 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:30:54.4460 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:30:54.4470 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:30:54.4470 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:31:29.6268 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:31:29.6277 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:31:29.6277 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:31:40.8803 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:31:40.8804 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:31:40.8804 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:32:20.0083 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:32:20.0083 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:32:20.0083 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:32:22.0803 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:32:22.0803 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:32:22.0803 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:32:50.1586 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:32:50.1596 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:32:50.1599 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:32:51.7191 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:32:51.7191 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:32:51.7191 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:33:31.5655 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:33:31.5659 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:33:31.5659 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:33:50.3179 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:33:50.3179 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:33:50.3179 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:33:58.2814 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:33:58.2819 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:33:58.2819 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:34:06.8790 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:34:06.8790 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:34:06.8790 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:34:19.8472 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:34:19.8472 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:34:19.8472 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:34:45.3595 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:34:45.3604 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:34:45.3604 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:35:12.1253 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:35:12.1253 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:35:12.1264 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:35:29.3585 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:35:29.3588 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:35:29.3588 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:38:47.3411 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:38:47.3421 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:38:47.3421 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:39:28.0842 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:39:28.0842 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:39:28.0842 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:39:38.5641 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:39:38.5642 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:39:38.5642 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:40:21.2460 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:40:21.2464 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:40:21.2464 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:41:07.6408 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:41:07.6408 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:41:07.6414 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:41:55.2636 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:41:55.2651 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:41:55.2652 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:42:24.3671 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:42:24.3671 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:42:24.3671 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:42:32.9684 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:42:32.9684 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:42:32.9691 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:42:49.5211 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:42:49.5214 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:42:49.5214 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:44:55.7877 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:44:55.7888 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:44:55.7888 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:45:23.8027 INFO Class: PatientService, Method: GetPatient
+2020-03-17 22:45:23.8039 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:45:23.8039 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:47:02.7618 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:47:02.7629 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:47:02.7629 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:47:31.0236 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:47:31.0236 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:47:31.0236 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:47:38.6376 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:47:38.6379 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:47:38.6379 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:57:15.5867 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:57:15.5879 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:57:15.5879 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:57:15.5890 INFO Class: AccessTokenService, Method: CreateAccessToken, Info: Acquire Token For Client.
+2020-03-17 22:57:35.6038 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:57:35.6039 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:57:35.6039 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 22:59:19.1774 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 22:59:19.1788 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 22:59:19.1791 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:01:46.5836 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 23:01:46.5836 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:01:46.5843 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:02:57.2573 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 23:02:57.2583 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:02:57.2583 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:04:08.6161 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 23:04:08.6178 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:04:08.6178 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:05:03.0474 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 23:05:03.0485 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:05:03.0487 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:07:42.1872 INFO Class: PatientService, Method: GetPatient
+2020-03-17 23:07:42.1883 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:07:42.1884 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:08:35.8830 INFO Class: PatientService, Method: GetPatient
+2020-03-17 23:08:35.8842 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:08:35.8842 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:08:37.5274 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 23:08:37.5277 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:08:37.5277 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:08:39.9861 INFO Class: PatientService, Method: GetPatient
+2020-03-17 23:08:39.9861 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:08:39.9866 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:09:03.4889 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 23:09:03.4897 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:09:03.4897 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:09:16.0065 INFO Class: PatientService, Method: GetPatient
+2020-03-17 23:09:16.0065 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:09:16.0065 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:10:10.9081 INFO Class: ObservationService, Method: GetPatientObservations
+2020-03-17 23:10:10.9092 INFO Class: ResourceFetchService, Method: GetAllPages
+2020-03-17 23:10:10.9092 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:10:11.1332 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:10:11.1804 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:10:11.2212 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:10:11.2686 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:10:11.3087 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:10:11.3541 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:10:11.3983 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:10:27.9746 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 23:10:27.9751 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:10:27.9751 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.
+2020-03-17 23:11:04.3783 INFO Class: ObservationService, Method: GetSingleObservation
+2020-03-17 23:11:04.3792 INFO Class: ResourceFetchService, Method: GetSinglePage
+2020-03-17 23:11:04.3792 INFO Class: AccessTokenService, Method: GetAuthenticationResult, Info: GetOrCreateAsync AuthenticationResult.

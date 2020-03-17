@@ -9,15 +9,17 @@ class PDF(FPDF):
         # Logo
         self.image('fhir.png', 10, 8, 33)
         # Arial bold 15
-        self.set_font('Arial', 'IB', 12)
+        self.set_font('Arial', 'IB', 16)
+        # Set the color of text 
+        self.set_text_color(135, 206, 235)
         # Move to the right
-        self.cell(70)
+        self.cell(60)
         # Title
-        self.cell(30, 8, 'Patient Report', 1, 0, 'C')
+        self.cell(30, 8, 'Patient Report', 0, 0, 'C')
         # Current time of generated file
-        self.cell(50)
+        self.cell(60)
         localtime = time.asctime(time.localtime(time.time()))
-        currentTime = "Time: "+localtime
+        currentTime = localtime
         self.cell(30,8,currentTime,0,2,'C')
         # Line break
         self.ln(10)
@@ -27,9 +29,11 @@ class PDF(FPDF):
         # Position at 1.5 cm from bottom
         self.set_y(-15)
         # Arial italic 8
-        self.set_font('Arial', 'IB', 10)
+        self.set_font('Arial', 'IB', 8)
+        # Text color in gray
+        self.set_text_color(135, 206, 235)
         # Page number
-        self.cell(0, 10, 'Page ' + str(self.page_no()) + '/{nb}', 0, 0, 'C')
+        self.cell(0, 10, 'Page ' + str(self.page_no()), 0, 0, 'C')
 
 if __name__ == '__main__':
     i = ""
@@ -55,6 +59,16 @@ if __name__ == '__main__':
         if 'lastUpdated' in meta:
             value = meta['lastUpdated']
         return value
+    
+    def getVersion():
+        if 'meta' in param_json:
+            meta = param_json['meta']
+            if 'versionId' in meta:
+                return str(meta['versionId'])
+            else:
+                return ''
+        else:
+            return ''
 
     def getID():
         if 'id' in param_json:
@@ -233,17 +247,33 @@ if __name__ == '__main__':
                         result.append('valueString = '+valueString)
             result_list.append(result)
         return result_list
+    
+    def setDefault():
+        pdf.set_font('Arial','',10)
+        pdf.set_text_color(0,0,0)
 
     def pageContent():
+        pdf.set_font('Arial','B',10)
         pdf.cell(30,8,'Last Updated at:',0,0,'L')
+        setDefault()
         pdf.cell(5)
         pdf.cell(30, 8, getLastUpdated(), 0, 1, 'L')
 
+        pdf.set_font('Arial','B',10)
+        pdf.cell(30, 8, 'Report version:', 0, 0, 'L')
+        setDefault()
+        pdf.cell(5)
+        pdf.cell(30, 8, getVersion(), 0, 1, 'L')
+        
+        pdf.set_font('Arial','B',10)
         pdf.cell(30, 8, 'Patient ID:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         pdf.cell(30, 8, getID(), 0, 1, 'L')
 
+        pdf.set_font('Arial','B',10)
         pdf.cell(30, 8, 'Patient Name:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         name_list = getName()
         for index,data in enumerate(name_list):
@@ -251,42 +281,58 @@ if __name__ == '__main__':
                 pdf.cell(30,8,x,0,2,'')
         # blank cell
         pdf.cell(30,0,'',0,1,'L')
-                        
+
+        pdf.set_font('Arial','B',10)                
         pdf.cell(30, 8, 'Birthdate:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         pdf.cell(30, 8, getBirthDate(), 0, 1, 'L')
 
+        pdf.set_font('Arial','B',10)
         pdf.cell(30, 8, 'Multiple Birth:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         pdf.cell(30, 8, str(getMultiBirth()), 0, 1, 'L')
 
+        pdf.set_font('Arial','B',10)
         pdf.cell(30, 8, 'Gender:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         pdf.cell(30, 8, getGender(), 0, 1, 'L')
 
+        pdf.set_font('Arial','B',10)
         pdf.cell(30, 8, 'Marital Status:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         pdf.cell(30, 8, getMarital(), 0, 1, 'L')
 
+        pdf.set_font('Arial','B',10)
         pdf.cell(30, 8, 'Contact:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         telecomList = getContact()
         for telecom in telecomList:
             pdf.cell(30,8,telecom,0,1,'L')
 
+        pdf.set_font('Arial','B',10)
         pdf.cell(30, 8, 'Address:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         addressList = getAddress()
         for address in addressList:
             pdf.cell(30,8,address,0,1,'L')
 
+        pdf.set_font('Arial','B',10)
         pdf.cell(30, 8, 'Language:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         communicationList = getCommunication()
         for language in communicationList:
             pdf.cell(30, 8, language, 0, 1, 'L')
 
+        pdf.set_font('Arial','B',10)
         pdf.cell(30,8,'Identifier',0,0,'L')
+        setDefault()
         pdf.cell(5)
         identifier_list = getIdentifiers()
         for index,data in enumerate(identifier_list):
@@ -298,7 +344,9 @@ if __name__ == '__main__':
                         pdf.cell(30,8,'-------------------------------------------------------------------',0,2,'L')
         pdf.cell(30,0,'',0,1,'L')
         
+        pdf.set_font('Arial','B',10)
         pdf.cell(30, 8, 'Extension:', 0, 0, 'L')
+        setDefault()
         pdf.cell(5)
         list1 = getExtensions()
         for index,l in enumerate(list1):
@@ -310,4 +358,4 @@ if __name__ == '__main__':
 
     pageContent()
     print('Patient File Generation complete!')
-    pdf.output("sample.pdf",'F')
+    pdf.output("patient.pdf",'F')
