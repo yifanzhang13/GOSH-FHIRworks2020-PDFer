@@ -35,12 +35,21 @@
 
 #### Generate and view a patient's PDF file
 
-- GET a patient: /api/Patient/ ***patient ID***
-- GET the PDF of patient with ***patient ID*** entered above: /api/Patient/*patient ID*/**view**
-- Instruction: 
-	- To get the PDF file, you have to enter `/api/Patient/patient ID` first to generate PDF file.
-	- Then enter `/api/Patient/patient ID/view` to view the generated PDF file.
-	- **Otherwise**, you could only view **the last generated PDf file** which means you cannot view the file of the patient with ID you entered. 
+- Find a patient ID: `/api/Patient/`
+	- ![Find a patient ID](/Users/yifancheung/Desktop/Screen Shot 2020-03-17 at 11.41.08 PM.png) 
+- Generate PDF file: `/api/Patient/patient ID`
+	- ![Generate PDF file](/Users/yifancheung/Desktop/Screen Shot 2020-03-17 at 11.43.36 PM.png) 
+- View the PDF file: `/api/Patient/patient ID/view`
+	- ![View the PDF file](/Users/yifancheung/Desktop/Screen Shot 2020-03-17 at 11.44.55 PM.png) 
+
+#### Generate and view an Observation PDF file
+
+- Find an observation ID from the list of observations of a patient: `/api/Observation/patient ID`
+	- ![Find an observation ID](/Users/yifancheung/Desktop/Screen Shot 2020-03-17 at 11.33.05 PM.png) 
+- Generate PDF file: `api/Observation/single/ observation ID`
+	- ![Generate PDF](/Users/yifancheung/Desktop/Screen Shot 2020-03-17 at 11.35.39 PM.png) 
+- View the PDF file: `api/Observation/single/ observation ID/view`
+	- ![Observation PDF](/Users/yifancheung/Desktop/Screen Shot 2020-03-17 at 11.36.59 PM.png) 
 
 #### Patients
 
