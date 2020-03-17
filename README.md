@@ -36,20 +36,20 @@
 #### Generate and view a patient's PDF file
 
 - Find a patient ID: `/api/Patient/`
-	- ![Find a patient ID](/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/GOSH-FHIRworks2020-pdfGenerator/screenshots/Screen Shot 2020-03-17 at 11.41.08 PM.png) 
+	- ![Find a patient ID](https://github.com/yifanzhang13/GOSH-FHIRworks2020-pdfGenerator/blob/master/screenshots/Screen%20Shot%202020-03-17%20at%2011.41.08%20PM.png) 
 - Generate PDF file: `/api/Patient/patient ID`
-	- ![Generate PDF file](/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/GOSH-FHIRworks2020-pdfGenerator/screenshots/Screen Shot 2020-03-17 at 11.43.36 PM.png) 
+	- ![Generate PDF file](https://github.com/yifanzhang13/GOSH-FHIRworks2020-pdfGenerator/blob/master/screenshots/Screen%20Shot%202020-03-17%20at%2011.43.36%20PM.png) 
 - View the PDF file: `/api/Patient/patient ID/view`
-	- ![View the PDF file](/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/GOSH-FHIRworks2020-pdfGenerator/screenshots/Screen Shot 2020-03-17 at 11.44.55 PM.png) 
+	- ![View the PDF file](https://github.com/yifanzhang13/GOSH-FHIRworks2020-pdfGenerator/blob/master/screenshots/Screen%20Shot%202020-03-17%20at%2011.44.55%20PM.png) 
 
 #### Generate and view an Observation PDF file
 
 - Find an observation ID from the list of observations of a patient: `/api/Observation/patient ID`
-	- ![Find an observation ID](/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/GOSH-FHIRworks2020-pdfGenerator/screenshots/Screen Shot 2020-03-17 at 11.33.05 PM.png) 
+	- ![Find an observation ID](https://github.com/yifanzhang13/GOSH-FHIRworks2020-pdfGenerator/blob/master/screenshots/Screen%20Shot%202020-03-17%20at%2011.33.05%20PM.png) 
 - Generate PDF file: `api/Observation/single/ observation ID`
-	- ![Generate PDF](/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/GOSH-FHIRworks2020-pdfGenerator/screenshots/Screen Shot 2020-03-17 at 11.35.39 PM.png) 
+	- ![Generate PDF](https://github.com/yifanzhang13/GOSH-FHIRworks2020-pdfGenerator/blob/master/screenshots/Screen%20Shot%202020-03-17%20at%2011.35.39%20PM.png) 
 - View the PDF file: `api/Observation/single/ observation ID/view`
-	- ![Observation PDF](/Users/yifancheung/Desktop/Systems Engineering /Legal_Implementation/GOSH-FHIRworks2020-pdfGenerator/screenshots/Screen Shot 2020-03-17 at 11.36.59 PM.png) 
+	- ![Observation PDF](https://github.com/yifanzhang13/GOSH-FHIRworks2020-pdfGenerator/blob/master/screenshots/Screen%20Shot%202020-03-17%20at%2011.36.59%20PM.png) 
 
 #### Patients
 
