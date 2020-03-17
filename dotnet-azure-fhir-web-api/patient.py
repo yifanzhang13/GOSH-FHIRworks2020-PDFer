@@ -32,55 +32,12 @@ class PDF(FPDF):
         self.cell(0, 10, 'Page ' + str(self.page_no()) + '/{nb}', 0, 0, 'C')
 
 if __name__ == '__main__':
-    dic = {}
-    def json_txt(dic_json):
-        if isinstance(dic_json, dict):
-            for key in dic_json:
-                if isinstance(dic_json[key], dict):
-                    print("****key--：%s value--: %s" % (key, dic_json[key]))
-                    json_txt(dic_json[key])
-                    dic[key] = dic_json[key]
-                else:
-                    print("****key--：%s value--: %s" % (key, dic_json[key]))
-                    dic[key] = dic_json[key]
-
-
-    def dict_generator(indict, pre=None):
-        pre = pre[:] if pre else []
-        if isinstance(indict, dict):
-            for key, value in indict.items():
-                if isinstance(value, dict):
-                    if len(value) == 0:
-                        yield pre + [key, '{}']
-                    else:
-                        for d in dict_generator(value, pre + [key]):
-                            yield d
-                elif isinstance(value, list):
-                    if len(value) == 0:
-                        yield pre + [key, '[]']
-                    else:
-                        for v in value:
-                            for d in dict_generator(v, pre + [key]):
-                                yield d
-                elif isinstance(value, tuple):
-                    if len(value) == 0:
-                        yield pre + [key, '()']
-                    else:
-                        for v in value:
-                            for d in dict_generator(v, pre + [key]):
-                                yield d
-                else:
-                    yield pre + [key, value]
-        else:
-            yield indict
-
     i = ""
     pdf = PDF()
     pdf.alias_nb_pages()
     pdf.add_page()
     pdf.set_font('Arial','',10)
     
-
     time.sleep(2)
 
     print("Get the stdin data")
@@ -91,7 +48,6 @@ if __name__ == '__main__':
         i = i + k
     # string -> json dictionary
     param_json = json.loads(i)
-    items = param_json.items()
 
     def getLastUpdated():
         meta = param_json['meta']
@@ -213,7 +169,7 @@ if __name__ == '__main__':
         for index, data in enumerate(communication):
             if 'language' in data:
                 language = data['language']
-            if 'text' in data:
+            if 'text' in language:
                 text = language['text']
             communicationList.append('('+str(index+1)+'): '+text)
         return communicationList
@@ -353,5 +309,5 @@ if __name__ == '__main__':
             pdf.cell(30,8,'-------------------------------------------------------------------',0,2,'L')
 
     pageContent()
-    print('File Generation complete!')
+    print('Patient File Generation complete!')
     pdf.output("sample.pdf",'F')

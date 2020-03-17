@@ -42,7 +42,7 @@ namespace HDR_UK_Web_Application.Services
             Process process = new Process() {
                 StartInfo = new ProcessStartInfo{
                     FileName = "python3",
-                    Arguments = "id.py",
+                    Arguments = "patient.py",
                     WorkingDirectory = Directory.GetCurrentDirectory(),
                     RedirectStandardInput = true
                 }

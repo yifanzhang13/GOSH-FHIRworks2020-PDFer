@@ -45,7 +45,7 @@ namespace HDR_UK_Web_Application.Controllers
         [HttpGet("{id}/view", Name = "ViewPatient")]
         public async Task<IActionResult> ViewPatient(string id)
         {
-            var pdfPath = Directory.GetCurrentDirectory()+"/sample.pdf";
+            var pdfPath = Directory.GetCurrentDirectory()+"/patient.pdf";
             var pdfMimeType = "application/pdf";
             var stream = System.IO.File.OpenRead(pdfPath);
 

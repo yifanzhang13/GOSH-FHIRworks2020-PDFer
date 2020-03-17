@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using HDR_UK_Web_Application.IServices;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
+using System.IO;
 
 namespace HDR_UK_Web_Application.Controllers
 {
@@ -39,6 +40,16 @@ namespace HDR_UK_Web_Application.Controllers
             return await _service.GetPatientObservationPages(id, pages);
         }
 
+        // GET: api/Observation/single/<observation ID>/view
+        [HttpGet("single/{id}/view", Name = "ViewSingleObservation")]
+        public async Task<IActionResult> ViewSingleObservation(string id)
+        {
+            var pdfPath = Directory.GetCurrentDirectory()+"/observation.pdf";
+            var pdfMimeType = "application/pdf";
+            var stream = System.IO.File.OpenRead(pdfPath);
+
+            return File(stream,pdfMimeType);
+        }
 
 
     }

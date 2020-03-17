@@ -2,6 +2,8 @@
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.IO;
+using System.Diagnostics;
 
 namespace HDR_UK_Web_Application.Services
 {
@@ -17,12 +19,6 @@ namespace HDR_UK_Web_Application.Services
             _logger = logger;
         }
 
-        public async Task<List<JObject>> GetPatientObservations(string id)
-        {
-            _logger.LogInfo("Class: ObservationService, Method: GetPatientObservations");
-            return await _resource.GetAllPages($"{requestOption[1]}{id}");
-        }
-
         public async Task<List<JObject>> GetPatientObservationPages(string id, int pages)
         {
             _logger.LogInfo("Class: ObservationService, Method: GetPatientObservationPages");
@@ -32,8 +28,29 @@ namespace HDR_UK_Web_Application.Services
         public async Task<JObject> GetSingleObservation(string id)
         {
             _logger.LogInfo("Class: ObservationService, Method: GetSingleObservation");
-            return await _resource.GetSinglePage($"{requestOption[0]}{id}");
+            JObject jObject = await _resource.GetSinglePage($"{requestOption[0]}{id}");
+
+            Process process = new Process() 
+            {
+                StartInfo = new ProcessStartInfo{
+                    FileName = "python3",
+                    Arguments = "observation.py",
+                    WorkingDirectory = Directory.GetCurrentDirectory(),
+                    RedirectStandardInput = true
+                }
+            };
+
+            process.Start();
+            process.StandardInput.WriteLine(jObject.ToString());
+            process.StandardInput.Close();
+
+            return jObject;
         }
 
+        public async Task<List<JObject>> GetPatientObservations(string id)
+        {
+            _logger.LogInfo("Class: ObservationService, Method: GetPatientObservations");
+            return await _resource.GetAllPages($"{requestOption[1]}{id}");
+        }
     }
 }
