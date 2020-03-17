@@ -12,6 +12,12 @@
     ```bash
     dotnet
     ```
+    
+## Install PyFPDF library
+
+- Install the python library by using Pipe:
+	- `python -m pip install fpdf`
+- Check [PyFPDF](https://pyfpdf.readthedocs.io/en/latest/#installation) which provides other ways to install the library
 
 # Running the app
 
