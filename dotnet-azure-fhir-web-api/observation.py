@@ -127,7 +127,7 @@ if __name__ == '__main__':
     def drawObservation():
         pdf.set_font('Arial','B',10)
         pdf.set_text_color(65, 105, 225)
-        pdf.cell(30,8,getCode()+': ',0,0,'L')
+        pdf.cell(30,8,getCode()+': '+getValue(),0,0,'L')
     
     def setDefault():
         pdf.set_font('Arial','',10)
@@ -173,7 +173,6 @@ if __name__ == '__main__':
         drawObservation()
         setDefault()
         pdf.cell(50)
-        pdf.cell(30,8,getValue(),0,1,'L')
     
     pageContent()
     print('Observation File Generation complete!')
