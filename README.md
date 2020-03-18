@@ -4,7 +4,7 @@ GOSH-FHIR Hackathon 2020 Project (Theme 1). It provides an easy way for users to
 
 ## Demonstrator
 
-![](http://recordit.co/tcIYjljKkx)
+![](https://github.com/yifanzhang13/GOSH-FHIRworks2020-pdfGenerator/blob/master/gif/tcIYjljKkx.gif)
 
 ## Deployment Guide
 
