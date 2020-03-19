@@ -24,7 +24,7 @@ GOSH-FHIR Hackathon 2020 Project (Theme 1). It provides an easy way for users to
 ### Install PyFPDF library
 
 - Install the python library by using Pipe:
-	- `python -m pip install fpdf`
+	- `python3 -m pip install fpdf`
 - Check [PyFPDF](https://pyfpdf.readthedocs.io/en/latest/#installation) which provides other ways to install the library
 
 ## Running the app
