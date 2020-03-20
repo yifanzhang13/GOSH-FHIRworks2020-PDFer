@@ -30,6 +30,28 @@ GOSH-FHIR Hackathon 2020 Project (Theme 1). It provides an easy way for users to
 ## Running the app
 
 - Clone the project and open it in Visual Studio Code.
+- Open the file **appsettings.json**
+
+
+    ```json
+    {
+      "Logging": {
+        "LogLevel": {
+          "Default": "Debug",
+          "System": "Information",
+          "Microsoft": "Information"
+        }
+      },
+      "Instance": "",
+      "Tenant": "",
+      "ClientId": "",
+      "ClientSecret": "",
+      "BaseAddress": "",
+      "Scope": ""
+    }
+    ```
+- Replace the empty fields with the Azure FHIR API credentials you have been given.
+- Save the file.
 - Navigate to the directory **dotnet-azure-fhir-web-api** using the terminal inside Visual Studio Code.
 - In the terminal, run the following command:
 
