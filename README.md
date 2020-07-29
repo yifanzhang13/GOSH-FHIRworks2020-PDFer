@@ -1,6 +1,6 @@
-# FHIR Patient Data PDF Generator
+# FHIR Patient Data PDFer
 
-GOSH-FHIR Hackathon 2020 Project (Theme 1). It provides an easy way for users to view a readable pdf file of a patient or an observation and the pdf files are automatically generated for every patient according to their own JSON data.
+GOSH-FHIR Hackathon 2020 Project (Theme 1). PDFer provides an easy way for users to view a readable pdf file of a patient or an observation and the pdf files are automatically generated for every patient according to their own JSON data when people uses PDFer.
 
 ## Demonstrator
 
